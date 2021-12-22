@@ -8,14 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D4028EC92770E4D6007307E0 /* YourPlanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028EC82770E4D6007307E0 /* YourPlanApp.swift */; };
-		D4028ECB2770E4D6007307E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028ECA2770E4D6007307E0 /* ContentView.swift */; };
+		D4028ECB2770E4D6007307E0 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028ECA2770E4D6007307E0 /* DashboardView.swift */; };
 		D4028ECD2770E4D7007307E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4028ECC2770E4D7007307E0 /* Assets.xcassets */; };
 		D4028ED02770E4D7007307E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4028ECF2770E4D7007307E0 /* Preview Assets.xcassets */; };
-		D4028ED22770E4D7007307E0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028ED12770E4D7007307E0 /* Persistence.swift */; };
 		D4028ED52770E4D7007307E0 /* YourPlan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D4028ED32770E4D7007307E0 /* YourPlan.xcdatamodeld */; };
 		D4028EDF2770E4D7007307E0 /* YourPlanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028EDE2770E4D7007307E0 /* YourPlanTests.swift */; };
 		D4028EE92770E4D7007307E0 /* YourPlanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028EE82770E4D7007307E0 /* YourPlanUITests.swift */; };
 		D4028EEB2770E4D7007307E0 /* YourPlanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028EEA2770E4D7007307E0 /* YourPlanUITestsLaunchTests.swift */; };
+		D4028EFB2770EB12007307E0 /* DependencyInjector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028EFA2770EB12007307E0 /* DependencyInjector.swift */; };
+		D4028EFD2770EBAF007307E0 /* InteractorsContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028EFC2770EBAF007307E0 /* InteractorsContainer.swift */; };
+		D4028F002770EC48007307E0 /* SprintBacklogInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028EFF2770EC48007307E0 /* SprintBacklogInteractor.swift */; };
+		D4028F032770EE64007307E0 /* Loadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028F022770EE64007307E0 /* Loadable.swift */; };
+		D4028F052770EE8E007307E0 /* CancelBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028F042770EE8E007307E0 /* CancelBag.swift */; };
+		D4028F072770F510007307E0 /* CombineHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028F062770F510007307E0 /* CombineHelpers.swift */; };
+		D4028F0A2770F7A8007307E0 /* SprintBacklog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028F092770F7A8007307E0 /* SprintBacklog.swift */; };
+		D4028F0C2770F7C6007307E0 /* SprintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028F0B2770F7C6007307E0 /* SprintItem.swift */; };
+		D4028F14277107F2007307E0 /* NumberFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028F13277107F2007307E0 /* NumberFormatter.swift */; };
+		D4028F182771EA76007307E0 /* SprintBacklogVisualisationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028F172771EA76007307E0 /* SprintBacklogVisualisationView.swift */; };
+		D4028F1E2771FC1A007307E0 /* SprintItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4028F1D2771FC1A007307E0 /* SprintItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,16 +48,26 @@
 /* Begin PBXFileReference section */
 		D4028EC52770E4D6007307E0 /* YourPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YourPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4028EC82770E4D6007307E0 /* YourPlanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourPlanApp.swift; sourceTree = "<group>"; };
-		D4028ECA2770E4D6007307E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4028ECA2770E4D6007307E0 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		D4028ECC2770E4D7007307E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4028ECF2770E4D7007307E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D4028ED12770E4D7007307E0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		D4028ED42770E4D7007307E0 /* YourPlan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YourPlan.xcdatamodel; sourceTree = "<group>"; };
 		D4028EDA2770E4D7007307E0 /* YourPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YourPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4028EDE2770E4D7007307E0 /* YourPlanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourPlanTests.swift; sourceTree = "<group>"; };
 		D4028EE42770E4D7007307E0 /* YourPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YourPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4028EE82770E4D7007307E0 /* YourPlanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourPlanUITests.swift; sourceTree = "<group>"; };
 		D4028EEA2770E4D7007307E0 /* YourPlanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourPlanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D4028EFA2770EB12007307E0 /* DependencyInjector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjector.swift; sourceTree = "<group>"; };
+		D4028EFC2770EBAF007307E0 /* InteractorsContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractorsContainer.swift; sourceTree = "<group>"; };
+		D4028EFF2770EC48007307E0 /* SprintBacklogInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintBacklogInteractor.swift; sourceTree = "<group>"; };
+		D4028F022770EE64007307E0 /* Loadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loadable.swift; sourceTree = "<group>"; };
+		D4028F042770EE8E007307E0 /* CancelBag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelBag.swift; sourceTree = "<group>"; };
+		D4028F062770F510007307E0 /* CombineHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineHelpers.swift; sourceTree = "<group>"; };
+		D4028F092770F7A8007307E0 /* SprintBacklog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintBacklog.swift; sourceTree = "<group>"; };
+		D4028F0B2770F7C6007307E0 /* SprintItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintItem.swift; sourceTree = "<group>"; };
+		D4028F13277107F2007307E0 /* NumberFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatter.swift; sourceTree = "<group>"; };
+		D4028F172771EA76007307E0 /* SprintBacklogVisualisationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintBacklogVisualisationView.swift; sourceTree = "<group>"; };
+		D4028F1D2771FC1A007307E0 /* SprintItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,10 +118,14 @@
 		D4028EC72770E4D6007307E0 /* YourPlan */ = {
 			isa = PBXGroup;
 			children = (
+				D4028F12277107EB007307E0 /* Extensions */,
+				D4028F082770F79A007307E0 /* Models */,
+				D4028F012770EE5D007307E0 /* Utilities */,
+				D4028EFE2770EC41007307E0 /* Interactors */,
+				D4028EF92770EA90007307E0 /* Injected */,
 				D4028EC82770E4D6007307E0 /* YourPlanApp.swift */,
-				D4028ECA2770E4D6007307E0 /* ContentView.swift */,
+				D4028F192771F5F5007307E0 /* UI */,
 				D4028ECC2770E4D7007307E0 /* Assets.xcassets */,
-				D4028ED12770E4D7007307E0 /* Persistence.swift */,
 				D4028ED32770E4D7007307E0 /* YourPlan.xcdatamodeld */,
 				D4028ECE2770E4D7007307E0 /* Preview Content */,
 			);
@@ -131,6 +155,84 @@
 				D4028EEA2770E4D7007307E0 /* YourPlanUITestsLaunchTests.swift */,
 			);
 			path = YourPlanUITests;
+			sourceTree = "<group>";
+		};
+		D4028EF72770E52F007307E0 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				D4028EF82770E537007307E0 /* Dashboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		D4028EF82770E537007307E0 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				D4028ECA2770E4D6007307E0 /* DashboardView.swift */,
+				D4028F172771EA76007307E0 /* SprintBacklogVisualisationView.swift */,
+				D4028F1D2771FC1A007307E0 /* SprintItemRow.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		D4028EF92770EA90007307E0 /* Injected */ = {
+			isa = PBXGroup;
+			children = (
+				D4028EFA2770EB12007307E0 /* DependencyInjector.swift */,
+				D4028EFC2770EBAF007307E0 /* InteractorsContainer.swift */,
+			);
+			path = Injected;
+			sourceTree = "<group>";
+		};
+		D4028EFE2770EC41007307E0 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				D4028EFF2770EC48007307E0 /* SprintBacklogInteractor.swift */,
+			);
+			path = Interactors;
+			sourceTree = "<group>";
+		};
+		D4028F012770EE5D007307E0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				D4028F022770EE64007307E0 /* Loadable.swift */,
+				D4028F042770EE8E007307E0 /* CancelBag.swift */,
+				D4028F062770F510007307E0 /* CombineHelpers.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D4028F082770F79A007307E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D4028F092770F7A8007307E0 /* SprintBacklog.swift */,
+				D4028F0B2770F7C6007307E0 /* SprintItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D4028F12277107EB007307E0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D4028F13277107F2007307E0 /* NumberFormatter.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D4028F192771F5F5007307E0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D4028F1A2771F5FA007307E0 /* Components */,
+				D4028EF72770E52F007307E0 /* Scenes */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		D4028F1A2771F5FA007307E0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +365,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4028ED22770E4D7007307E0 /* Persistence.swift in Sources */,
-				D4028ECB2770E4D6007307E0 /* ContentView.swift in Sources */,
+				D4028EFD2770EBAF007307E0 /* InteractorsContainer.swift in Sources */,
+				D4028F032770EE64007307E0 /* Loadable.swift in Sources */,
+				D4028F052770EE8E007307E0 /* CancelBag.swift in Sources */,
+				D4028EFB2770EB12007307E0 /* DependencyInjector.swift in Sources */,
+				D4028ECB2770E4D6007307E0 /* DashboardView.swift in Sources */,
+				D4028F0A2770F7A8007307E0 /* SprintBacklog.swift in Sources */,
+				D4028F182771EA76007307E0 /* SprintBacklogVisualisationView.swift in Sources */,
+				D4028F1E2771FC1A007307E0 /* SprintItemRow.swift in Sources */,
+				D4028F002770EC48007307E0 /* SprintBacklogInteractor.swift in Sources */,
 				D4028EC92770E4D6007307E0 /* YourPlanApp.swift in Sources */,
 				D4028ED52770E4D7007307E0 /* YourPlan.xcdatamodeld in Sources */,
+				D4028F14277107F2007307E0 /* NumberFormatter.swift in Sources */,
+				D4028F072770F510007307E0 /* CombineHelpers.swift in Sources */,
+				D4028F0C2770F7C6007307E0 /* SprintItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
