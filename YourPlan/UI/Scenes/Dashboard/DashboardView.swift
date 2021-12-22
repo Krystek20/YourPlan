@@ -73,6 +73,5 @@ private extension DashboardView {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         DashboardView()
-//            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }
